@@ -1,4 +1,5 @@
 import axios from "axios";
+import {API_KEY} from "../utils/Variables"
 
 export const GetAllCountryList = async () => {
     try {
@@ -8,6 +9,19 @@ export const GetAllCountryList = async () => {
 
     //   setCountries(response.data);
     return response.data;
+    } catch (error) {
+      console.log("Error fetching countries", error);
+    }
+  };
+
+  export const GetCurrencyByFrom = async (fromCountry) => {
+    try {
+      const response = await axios.get(
+        `https://v6.exchangerate-api.com/v6/${API_KEY}/latest/${fromCountry}`
+      );
+
+    //   setCountries(response.data);
+    return response.data.conversion_rates;
     } catch (error) {
       console.log("Error fetching countries", error);
     }
