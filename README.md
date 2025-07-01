@@ -1,29 +1,29 @@
 
 
-# 💱 Currency Converter App
+#  Currency Converter App
 
 A sleek and responsive Currency Converter application built with **React.js**, **Tailwind CSS**, and **React Hooks**. Easily convert between world currencies in real-time using an intuitive and customizable interface.
 
-🌐 **Live Demo**:
+ **Live Demo**:
 [https://currency-converter-lake-six.vercel.app/](https://currency-converter-lake-six.vercel.app/)
 
-## 🚀 Features
+##  Features
 
-* 🔁 **Real-Time Currency Conversion** with live exchange rates
-* 🌍 Supports **multiple international currencies**
-* 🎯 **User-friendly and responsive** UI using Tailwind CSS
-* ⚙️ Customizable options for selecting "From" and "To" currencies
-* 📱 Fully responsive for **mobile, tablet, and desktop** devices
+*  **Real-Time Currency Conversion** with live exchange rates
+*  Supports **multiple international currencies**
+*  **User-friendly and responsive** UI using Tailwind CSS
+*  Customizable options for selecting "From" and "To" currencies
+*  Fully responsive for **mobile, tablet, and desktop** devices
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **React.js** – For building the user interface
 * **Tailwind CSS** – For rapid and responsive styling
 * **React Hooks** – For managing state and side effects
 
 
-## 🔧 Installation
+##  Installation
 
 ```bash
 # Clone the repository
